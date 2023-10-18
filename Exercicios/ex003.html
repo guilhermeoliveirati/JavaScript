@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             body {
-                background-color: rgb(125, 211, 116);
+                background-color: rgb(125, 211, 116); /*Comentario em CSS*/
             }
             h1 {
                 color: blue;
@@ -14,13 +14,15 @@
         <title>Meu primeiro programa...</title>
     </head>
     <body>
-        <h1>Olá, Mundo!!</h1>
+        <h1>Olá, Mundo!!</h1> <!--Comentario em HTML-->
         <p>Já me livrei da maldição</p>
         <script>
-            var n1 = Number(window.prompt('Digite um numero: '))
-            var n2 = Number(window.prompt('Digite o segundo numero: '))
+            var n1 = Number(window.prompt('Digite um numero: ')) //String
+            var n2 = Number(window.prompt('Digite o segundo numero: ')) //String
             var s = n1 + n2
-            window.alert('A soma é ' + s)
+            window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) //Concatenação
+            // (number + number) para adição
+            // (string + string) para concatenação
         </script>
     </body>
 </html>
